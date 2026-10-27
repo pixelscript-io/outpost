@@ -58,7 +58,7 @@
 
         <div class="shot">
           <div class="frame">
-            <img src="/img/servers.webp" width="2400" height="1888" alt="The Outpost server browser. A server is selected and a Ready to join checklist shows a matching game version, two mods to download, free disk space and open slots, with a single button that reads Download 1.1 GB and play." fetchpriority="high" />
+            <img src="/img/servers.webp" width="2400" height="1888" alt="The Outpost server browser listing servers with players. One server is selected, and a Ready to join checklist shows a matching game version, two mods to download, free disk space and its ping, with a single button that reads Download 1.1 GB and play." fetchpriority="high" />
           </div>
         </div>
       </section>
@@ -73,12 +73,12 @@
             <article class="card">
               <h3>Find a server fast</h3>
               <ul>
-                <li>Search by server name, IP address or mod name</li>
-                <li>Filter by map, first or third person, full, empty, password, BattlEye, vanilla and number of mods</li>
-                <li>Sort by name, players or number of mods</li>
+                <li>Search by server name, IP address or map</li>
+                <li>Filter by map, first or third person, full servers, BattlEye and vanilla (no mods)</li>
+                <li>Sort by name or players</li>
                 <li>Favorites, saved on your computer</li>
-                <li>Starts instantly from the saved list and refreshes in the background</li>
-                <li>Ask one server for live player counts and mods</li>
+                <li>Shows the servers that have players right now, kept from last time so it starts instantly and refreshed in the background</li>
+                <li>Select a server and Outpost asks it directly for its mods, password and ping</li>
               </ul>
             </article>
 
@@ -86,7 +86,7 @@
               <h3>A ready-to-join checklist</h3>
               <ul>
                 <li>Game version against the server's version, with who needs to act if they differ</li>
-                <li>Mods installed, missing or out of date</li>
+                <li>Mods installed, missing or out of date, read straight from the game server. Any mod it gives no Workshop ID for is named, not guessed</li>
                 <li>Download size and a time estimate from your own last download</li>
                 <li>Free disk space before and after the download</li>
                 <li>Open slots, a full server, or a password requirement</li>
@@ -108,7 +108,7 @@
             <article class="card">
               <h3>Take control of your mods</h3>
               <ul>
-                <li>Every installed mod with its size, last use and how many servers use it</li>
+                <li>Every installed mod with its size and when you last used it</li>
                 <li>Clean up mods you have not used for a while, with a preview of the space you get back</li>
                 <li>Verify files and repair damaged mods in one click</li>
                 <li>Mod sets: save a group of mods, launch it without a server, share it as a short code</li>
@@ -148,7 +148,7 @@
           </div>
           <div class="gallery">
             <figure>
-              <div class="frame"><img src="/img/mods.webp" width="2400" height="1216" loading="lazy" alt="The Mods tab lists installed mods with size, last used and server count. One mod is marked Damaged, with a banner offering to repair it." /></div>
+              <div class="frame"><img src="/img/mods.webp" width="2400" height="1600" loading="lazy" alt="The Mods tab lists installed mods with their size, when they were last used and when they were updated. One mod is marked Damaged, with a banner offering to repair it." /></div>
               <figcaption><b>Mods</b>See what takes space, verify files, repair damaged mods and clean up the ones you no longer use.</figcaption>
             </figure>
             <figure>
@@ -183,7 +183,7 @@
                       </details>
           <details>
                         <summary>What does it collect?</summary>
-                        <p>Nothing. Your settings and favorites stay on your computer. It only talks to the public server list, Steam and its own update page.</p>
+                        <p>Nothing about you. There is no account and no analytics, and your settings and favorites stay on your computer. To work, Outpost talks to its own server list service, the game servers you select, Steam and GitHub (for updates). Like any website or game server, those can see your IP address.</p>
                       </details>
         </div>
       </section>
