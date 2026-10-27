@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0402f" />
+      <stop offset="1" stop-color="#a31f17" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#2a1511" />
+      <stop offset="1" stop-color="#0b0c09" />
+    </radialGradient>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="200" fill="url(#glow)" />
+  <rect x="32" y="32" width="960" height="960" rx="200" fill="none" stroke="#3a1c17" stroke-width="8" />
+  <!-- the Z: two bars joined by a diagonal -->
+  <path fill="url(#red)" d="M240 240 H784 V340 L424 684 H784 V784 H240 V684 L600 340 H240 Z" />
+  <!-- one slash across it, like a scratch -->
+  <path fill="#0b0c09" d="M628 232 L664 232 L396 792 L360 792 Z" opacity="0.9" />
+</svg>

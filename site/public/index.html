@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Outpost: a DayZ server browser and launcher</title>
+    <meta name="description" content="Outpost checks your game version, mods and disk space before you join a DayZ server, downloads what is missing through Steam, and launches with the right mods. Free for Windows." />
+    <meta name="theme-color" content="#0a0b09" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preload" href="/fonts/barlow-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Outpost: know before you join" />
+    <meta property="og:description" content="A DayZ server browser and launcher that checks mods, version and disk space first, then downloads and launches for you." />
+    <meta property="og:url" content="https://outpost.joe-789.workers.dev/" />
+    <meta property="og:image" content="https://outpost.joe-789.workers.dev/img/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="The Outpost server browser with a Ready to join checklist" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://outpost.joe-789.workers.dev/" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="top">
+      <div class="wrap">
+        <a class="brand" href="/" aria-label="Outpost home">
+          <svg width="30" height="30" viewBox="224 224 576 576" aria-hidden="true">
+            <path fill="currentColor" d="M240 240 H784 V340 L424 684 H784 V784 H240 V684 L600 340 H240 Z" />
+            <path fill="#0a0b09" d="M628 232 L664 232 L396 792 L360 792 Z" />
+          </svg>
+          <span>Outpost</span>
+        </a>
+        <nav class="links" aria-label="Page sections">
+          <a href="#how">How it works</a>
+          <a href="#features">Features</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <a class="btn primary small" href="/download">Download</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrap">
+          <p class="eyebrow" style="justify-content:center">DayZ server browser and launcher</p>
+          <h1>Know before <em>you join.</em></h1>
+          <p class="lead">
+            Outpost checks your game version, your mods and your disk space before you press Play. Then it downloads
+            what is missing and launches DayZ with the right mods and parameters.
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="/download">Download for Windows</a>
+            <a class="btn" href="https://github.com/pixelscript-io/outpost/releases">All releases</a>
+          </div>
+          <p class="meta">Free · Windows 10 and 11 · about 3 MB · <b id="ver">latest version</b></p>
+        </div>
+
+        <div class="shot">
+          <div class="frame">
+            <div class="bar" aria-hidden="true"><i></i><i></i><i></i><span>Outpost</span></div>
+            <img src="/img/servers.webp" width="2400" height="1888" alt="The Outpost server browser. A server is selected and a Ready to join checklist shows a matching game version, two mods to download, free disk space and open slots, with a single button that reads Download 1.1 GB and play." fetchpriority="high" />
+          </div>
+          <p class="caption">The real app, shown with sample servers.</p>
+        </div>
+
+        <div class="wrap">
+          <ul class="trust" aria-label="Highlights">
+            <li>No account</li>
+            <li>No ads</li>
+            <li>No tracking</li>
+            <li>Signed updates</li>
+            <li>Installs without admin rights</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="block" id="how">
+        <div class="wrap">
+          <div class="head">
+            <p class="eyebrow">How it works</p>
+            <h2>Three steps, no surprises</h2>
+            <p>Every reason a join can fail is checked before you click, and explained in plain words.</p>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <h3>Pick a server</h3>
+              <p>Search the full public list by name, IP or mod. Filter by map, perspective, BattlEye, mod count and more. The list shows up instantly from your last session.</p>
+            </div>
+            <div class="step">
+              <h3>See what it needs</h3>
+              <p>A checklist compares the server's game version with yours, shows which mods are missing or outdated, how big the download is, and whether you have the disk space.</p>
+            </div>
+            <div class="step">
+              <h3>Press one button</h3>
+              <p>The button says what will happen: Play, or Download 1.1 GB and play. Outpost fetches the mods through Steam, then launches DayZ with the right mods and keys.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="features">
+        <div class="wrap">
+          <div class="head">
+            <p class="eyebrow">Features</p>
+            <h2>Everything a DayZ launcher should do</h2>
+          </div>
+          <div class="features">
+            <article class="card">
+              <h3>Find a server fast</h3>
+              <ul>
+                <li>Search by server name, IP address or mod name</li>
+                <li>Filter by map, first or third person, full, empty, password, BattlEye, vanilla and number of mods</li>
+                <li>Sort by name, players or number of mods</li>
+                <li>Favorites, saved on your computer</li>
+                <li>Starts instantly from the saved list and refreshes in the background</li>
+                <li>Ask one server for live player counts and mods</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>A ready-to-join checklist</h3>
+              <ul>
+                <li>Game version against the server's version, with who needs to act if they differ</li>
+                <li>Mods installed, missing or out of date</li>
+                <li>Download size and a time estimate from your own last download</li>
+                <li>Free disk space before and after the download</li>
+                <li>Open slots, a full server, or a password requirement</li>
+                <li>One main button that changes with the situation</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Mods, handled for you</h3>
+              <ul>
+                <li>Downloads and updates mods through the Steam client you already use</li>
+                <li>Live progress for every mod</li>
+                <li>Download and play in one click</li>
+                <li>Links each mod and copies its BattlEye keys, so servers accept it</li>
+                <li>Outpost never sees your Steam password</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Take control of your mods</h3>
+              <ul>
+                <li>Every installed mod with its size, last use and how many servers use it</li>
+                <li>Clean up mods you have not used for a while, with a preview of the space you get back</li>
+                <li>Verify files and repair damaged mods in one click</li>
+                <li>Mod sets: save a group of mods, launch it without a server, share it as a short code</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Launch your way</h3>
+              <ul>
+                <li>Profile name, which some servers require</li>
+                <li>Launch parameters laid out like the official launcher: window mode, world, profiles folder, CPU cores, memory and more</li>
+                <li>A live preview of the exact command line</li>
+                <li>Server passwords, never saved to disk</li>
+                <li>Set the game folder yourself if it is somewhere unusual</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Stays out of your way</h3>
+              <ul>
+                <li>Crash report with the exit code explained and a Copy diagnostics button</li>
+                <li>Get a desktop notification when a server you are waiting on updates to your game version (while Outpost is open)</li>
+                <li>Updates itself, with a signed update you approve first</li>
+                <li>A tiny installer that needs no administrator rights</li>
+                <li>No account, no ads and no tracking</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="more">
+        <div class="wrap">
+          <div class="head">
+            <p class="eyebrow">A closer look</p>
+            <h2 id="more">Your mods and your launch options</h2>
+          </div>
+          <div class="gallery">
+            <figure>
+              <div class="frame"><img src="/img/mods.webp" width="2400" height="1216" loading="lazy" alt="The Mods tab lists installed mods with size, last used and server count. One mod is marked Damaged, with a banner offering to repair it." /></div>
+              <figcaption><b>Mods</b>See what takes space, verify files, repair damaged mods and clean up the ones you no longer use.</figcaption>
+            </figure>
+            <figure>
+              <div class="frame"><img src="/img/params.webp" width="2400" height="1600" loading="lazy" alt="The Parameters tab with a profile name, game folder, launch options with checkboxes, and a preview of the full command line." /></div>
+              <figcaption><b>Parameters</b>Every launch option in one place, with the exact command line shown before you run it.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="block" id="faq">
+        <div class="wrap facts">
+          <div>
+            <div class="head" style="margin-bottom:24px">
+              <p class="eyebrow">Questions</p>
+              <h2>Good to know</h2>
+            </div>
+            <details>
+              <summary>Is it free?</summary>
+              <p>Yes. There is no account, no ad and no paid tier.</p>
+            </details>
+            <details>
+              <summary>Does it need my Steam login?</summary>
+              <p>No. Steam does the downloading, signed in as you. Outpost only asks the Steam client to subscribe to a mod and watches its progress, so it never sees your password.</p>
+            </details>
+            <details>
+              <summary>Why does Windows warn me about the installer?</summary>
+              <p>The installer is not code-signed yet, so Windows SmartScreen may say the publisher is unknown. Choose More info, then Run anyway. Updates inside the app are separately signed and checked before they install.</p>
+            </details>
+            <details>
+              <summary>Is Outpost official?</summary>
+              <p>No. It is an independent tool and is not affiliated with or endorsed by Bohemia Interactive.</p>
+            </details>
+            <details>
+              <summary>What does it collect?</summary>
+              <p>Nothing. Your settings and favorites stay on your computer. It only talks to the public server list, Steam and its own update page.</p>
+            </details>
+          </div>
+          <div class="req">
+            <h3>Requirements</h3>
+            <ul>
+              <li><b>Windows 10 or 11</b>, 64-bit</li>
+              <li><b>Steam</b>, running and signed in</li>
+              <li><b>DayZ</b>, installed through Steam</li>
+              <li>About <b>3 MB</b> to install, plus space for your mods</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="final">
+        <div class="wrap">
+          <h2>Ready to join?</h2>
+          <p>Download Outpost, pick a server and see exactly what it needs.</p>
+          <a class="btn primary" href="/download">Download for Windows</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <p>Outpost is an unofficial tool. It is not affiliated with or endorsed by Bohemia Interactive. DayZ is a trademark of its owner.</p>
+        <p><a href="https://github.com/pixelscript-io/outpost/releases">Releases</a></p>
+      </div>
+    </footer>
+
+    <script>
+      // Show the current version next to the download button. The page works the same without it.
+      fetch('/api/latest')
+        .then((r) => (r.ok ? r.json() : null))
+        .then((d) => {
+          if (d && /^\d+\.\d+\.\d+/.test(d.version)) document.getElementById('ver').textContent = 'version ' + d.version;
+        })
+        .catch(() => {});
+    </script>
+  </body>
+</html>
