@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "outpost-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  // Off on purpose: request traces can record the URLs of outgoing requests, and the request to
+  // Steam carries the API key in its URL.
+  "observability": { "enabled": false }
+}

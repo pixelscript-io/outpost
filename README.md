@@ -17,4 +17,4 @@ Requires Windows, Steam and DayZ.
 
 Outpost is an unofficial tool. It is not affiliated with or endorsed by Bohemia Interactive. DayZ is a trademark of its owner.
 
-This repository hosts the releases and the source of the landing page (in `site/`). The app itself is not published here.
+This repository hosts the releases, the source of the landing page (in `site/`) and the server list service the app downloads its list from (in `api/`). The app itself is not published here.
